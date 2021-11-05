@@ -10,13 +10,13 @@ const BarzTest = () => {
       headers: {
         Accept: 'application/json',
         Authorization:
-          'Bearer  BQBFWszns8KXXm6TPnndG9VBY-40jr9VUF5pfJscq6I1WdtoVNFN-4Hw8PLudN0_WQzuNtVW2GEydOoaw5cUEeo84g7zZFULjpBEx3u7f46w-lpJDxF40DDC2ooNhJnoot5Zq_LORukk05w',
+          'Bearer  BQDFx6JVVmyiToaSS-tYG9EQy7iJLCIYOWCYlkseRB3qKiWZHVUdROB9wnHnckb97d3oNGGTfT_KR0H02po2mXy0qFjPTv-GaI0xpnJ_U5dEAZjjIfrjdeJYs1yO5SVKSHYRCanw--Idp1M',
       },
     })
       .then((res) => res.json())
       .then((data) => {
         console.log(data)
-        // setAlbum(data.artists[0].name)
+        setAlbum(data.artists[0].name)
       })
   }, [])
 
